@@ -13,9 +13,8 @@ body {
 @import "_header.scss";
 
 .catalog {
-  max-width: 944px;
-  margin: 0 auto;
   display: grid;
+  justify-content: center;
   gap: 48px;
 
   @media (min-width: 488px) {
